@@ -50,3 +50,5 @@ C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\Stude
 C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\StudentP.3DF9C7E8.Up2Date
 C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\StudentPrakt.exe
 C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\StudentPrakt.pdb
+C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\Pages\DobavPage.g.cs
+C:\Users\2024\Desktop\практика\StudentPrakt\StudentPrakt\obj\Debug\Pages\DobavPage.baml

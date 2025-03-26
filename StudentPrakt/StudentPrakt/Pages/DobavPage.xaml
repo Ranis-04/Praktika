@@ -1,0 +1,27 @@
+﻿<Page x:Class="StudentPrakt.Pages.DobavPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StudentPrakt.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DobavPage" Background="Azure">
+
+    <Grid>
+        <StackPanel Margin="40">
+            <TextBlock  Text="ФИО:" FontSize="16" HorizontalAlignment="Left"/>
+            <TextBox Height="23" x:Name="FioTextBox" Width="250" HorizontalAlignment="Left" HorizontalContentAlignment="Center"/>
+
+            
+            <TextBlock Text="Группа:" FontSize="16" HorizontalAlignment="Left"/>
+            <TextBox Height="23" Width="250" HorizontalAlignment="Left" x:Name="GroupTextBox" HorizontalContentAlignment="Center"/>
+
+            <TextBlock Text="Специальность:"  FontSize="16" HorizontalAlignment="Left"/>
+            <ComboBox Width="250" Height="23" x:Name="SpecCB" HorizontalAlignment="Left" DisplayMemberPath="Title"/>
+
+            <Button Content="Добавить" Height="23" Width="130" Margin="0 150 0 0 " x:Name="Save" Click="Save_Click"/>
+            <Button Content="Назад" Height="23" Width="130" Margin="0 -20 0 0 " HorizontalAlignment="Left" x:Name="Nazad" Click="Nazad_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

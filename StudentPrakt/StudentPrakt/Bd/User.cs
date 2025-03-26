@@ -15,7 +15,6 @@ namespace StudentPrakt.Bd
     public partial class User
     {
         public int id_User { get; set; }
-        public string FIO { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public int Role_id { get; set; }

@@ -22,5 +22,30 @@
                 <DataGridTextColumn Header="Специальность" Binding="{Binding Specialization.Title}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Grid.Row="2" Height="25" Width="130" Content="Выйти" x:Name="Vixod" HorizontalAlignment="Left" Margin="10 0 0 0" Click="Vixod_Click"/>
+        <Button Grid.Row="2" Height="25" Width="130" Content="Редактировать " HorizontalAlignment="Center" Margin="-140 0 0 0"/>
+        <Button Grid.Row="2" Height="25" Width="130" Content="Удалить" HorizontalAlignment="Center" Margin="150 0 0 0"/>
+
+        <TextBlock Text="Фильтрация :" Grid.Row="0" Height="25" FontSize="16" Margin="100 0 0 0 "/>
+        <ComboBox Grid.Row="0" Width="300" Height="30" HorizontalAlignment="Left" Margin="200 0 0 0">
+            <ComboBoxItem Content="911"/>
+            <ComboBoxItem Content="921"/>
+            <ComboBoxItem Content="931"/>
+            <ComboBoxItem Content="941"/>
+            <ComboBoxItem Content="211"/>
+            <ComboBoxItem Content="221"/>
+            <ComboBoxItem Content="231"/>
+            <ComboBoxItem Content="241"/>
+            <ComboBoxItem Content="311"/>
+            <ComboBoxItem Content="321"/>
+            <ComboBoxItem Content="331"/>
+            <ComboBoxItem Content="341"/>
+            <ComboBoxItem Content="811"/>
+            <ComboBoxItem Content="821"/>
+            <ComboBoxItem Content="831"/>
+            <ComboBoxItem Content="841"/>
+        </ComboBox>
+        
+        <Button Grid.Row="0" Height="25" Width="130" Content="Добавить" x:Name="Dobav" Click="Dobav_Click" HorizontalAlignment="Center" Margin="650 0 0 0"/>
     </Grid>
 </Page>

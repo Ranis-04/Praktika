@@ -34,5 +34,16 @@ namespace StudentPrakt.Pages
         {
 
         }
+
+        private void Vixod_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Pages.AuthorizationPage());
+        }
+
+        private void Dobav_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Pages.DobavPage());
+        }
     }
+    
 }
